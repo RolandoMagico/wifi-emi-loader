@@ -49,6 +49,7 @@ wifi_emi_loader-objs := $(CORE_OBJS) $(CHIP_OBJS) $(COMMON_OBJS)
 
 #always build module
 obj-m += wifi_emi_loader.o
+obj-m += source/
 
 # build_tools:
 # 	ln -sf $(BIN_PATH)
