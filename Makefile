@@ -53,4 +53,4 @@ obj-m += wifi_emi_loader.o
 # build_tools:
 # 	ln -sf $(BIN_PATH)
 # 	$(MAKE) -C tool CHIP=$(CHIP)
-ä	rm bin
+#	rm bin
