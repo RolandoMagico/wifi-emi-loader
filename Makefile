@@ -50,7 +50,7 @@ wifi_emi_loader-objs := $(CORE_OBJS) $(CHIP_OBJS) $(COMMON_OBJS)
 #always build module
 obj-m += wifi_emi_loader.o
 
-build_tools:
-	ln -sf $(BIN_PATH)
-	$(MAKE) -C tool CHIP=$(CHIP)
-	rm bin
+# build_tools:
+# 	ln -sf $(BIN_PATH)
+# 	$(MAKE) -C tool CHIP=$(CHIP)
+ä	rm bin
